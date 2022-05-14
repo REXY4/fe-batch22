@@ -1,0 +1,48 @@
+/* FONTS */
+@font-face {
+    font-family: "AvenirNext";
+    src: url("../assets/fonts/AvenirNext/AvenirNextLTPro-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AvenirNextDemiBold";
+    src: url("../assets/fonts/AvenirNext/AvenirNext-DemiBold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "AvenirNextBold";
+    src: url("../assets/fonts/AvenirNext/AvenirNextLTPro-Bold.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+
+  
+.app {
+    margin: 0;
+    background-color: #151515;
+    color: #FFFFFF;
+    font-family: "AvenirNext";
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  #input{
+    box-sizing: border-box;
+    width: 350px;
+    height: 50px;
+    background: rgba(210, 210, 210, 0.25);
+    border: 2px solid #BCBCBC;
+    border-radius: 5px;
+    color : white 
+  }
+  
